@@ -1,0 +1,15 @@
+2023-09-12 09:10:16 ERROR main org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-09-12 09:10:48 ERROR http-nio-8080-exec-1 com.hq.minio.exception.GlobalExceptionHandler 发生业务异常：数据格式不匹配

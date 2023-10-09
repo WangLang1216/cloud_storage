@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hq.minio.mapper.UserInfoMapper">
+
+    <resultMap id="BaseResultMap" type="com.hq.minio.entity.UserInfo">
+        <id column="u_id" jdbcType="BIGINT" property="uId"></id>
+        <result column="u_name" jdbcType="CHAR" property="uName"></result>
+        <result column="u_password" jdbcType="VARCHAR" property="uPassword"></result>
+        <result column="u_state" jdbcType="INTEGER" property="uState"></result>
+        <result column="gmt_create" jdbcType="DATE" property="gmtCreate"></result>
+        <result column="gmt_modified" jdbcType="DATE" property="gmtModified"></result>
+    </resultMap>
+
+    <!--用户注册-->
+    <insert id="userRegister" parameterType="com.hq.minio.entity.UserInfo">
+        INSERT INTO userinfo (u_name, u_password, gmt_create, gmt_modified)
+        VALUES (#{uName}, #{uPassword}, #{gmtCreate}, #{gmtCreate});
+    </insert>
+
+    <!--用户登录-->
+    <select id="userLogin" parameterType="java.lang.String" resultType="com.hq.minio.entity.UserInfo" resultMap="BaseResultMap">
+        SELECT u_id, u_name, u_password, u_state, gmt_create, gmt_modified
+        FROM userinfo
+        WHERE u_name = #{uName}
+    </select>
+
+    <!--用户列表查看，包含角色信息-->
+    <select id="userInfoList" resultType="com.hq.minio.dto.UserInfoRole">
+        SELECT userinfo.u_id, userinfo.u_name, userinfo.u_password, userinfo.u_state, userinfo.gmt_create, userinfo.gmt_modified,
+               `role`.r_id, `role`.r_name, `role`.r_desc
+        FROM userinfo
+        LEFT OUTER JOIN user_role
+                    ON userinfo.u_id = user_role.u_id
+        LEFT OUTER JOIN `role`
+                    ON user_role.r_id = `role`.r_id
+    </select>
+
+    <!--用户信息修改-->
+    <update id="userInfoUpdate" parameterType="com.hq.minio.entity.UserInfo">
+        UPDATE userinfo
+        SET u_password = #{uPassword}
+        WHERE u_id = #{uId}
+    </update>
+
+    <!--用户状态修改-->
+    <update id="userDeleteById" parameterType="java.lang.String">
+        UPDATE userinfo
+        SET u_state = #{uState}
+        WHERE u_id = #{uId}
+    </update>
+
+    <!--根据用户名查询-->
+    <select id="queryUserInfoByName" parameterType="java.lang.String" resultType="com.hq.minio.entity.UserInfo" resultMap="BaseResultMap">
+        SELECT u_id, u_name, u_password, u_state, gmt_create, gmt_modified
+        FROM userinfo
+        WHERE u_name = #{uName}
+    </select>
+
+    <!--根据id查询-->
+    <select id="queryUserInfoById" parameterType="java.lang.String" resultType="com.hq.minio.entity.UserInfo" resultMap="BaseResultMap">
+        SELECT u_id, u_name, u_password, u_state, gmt_create, gmt_modified
+        FROM userinfo
+        WHERE u_id = #{uId}
+    </select>
+</mapper>

@@ -1,0 +1,49 @@
+spring:
+  # 配置文件上传大小限制
+  datasource:
+    druid:
+      url: jdbc:mysql://8.130.18.190:3306/cloud_storage?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&useSSL=false
+      username: root
+      password: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    mybatis-plus:
+      configuration:
+        log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+      mapper-locations: classpath:mapper/*.xml
+      type-aliases-package: com.damon.entity
+  # 日期格式全局设置
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+#  redis:
+#    host: 8.130.18.190
+#    port: 6379
+#    password: 123456
+  servlet:
+    multipart:
+      max-file-size: 200MB
+      max-request-size: 200MB
+
+minio:
+  endpoint: http://8.130.18.190:9000
+  accessKey: minioadmin
+  secretKey: minioadmin
+  bucketName: test
+server:
+  port: 8080
+# Socket配置
+socket:
+  # 监听端口 1111
+  port: 1111
+  # 线程池 - 保持线程数 20
+  pool-keep: 20
+  # 线程池 - 核心线程数 10
+  pool-core: 10
+  # 线程池 - 最大线程数 20
+  pool-max: 30
+  # 线程队列容量 10
+  pool-queue-init: 10
+# 密码加密
+encoder:
+  crypt:
+    secret: ${random.uuid} # 随机的密钥，使用uuid
+    strength: 6 # 加密强度4~31，决定盐加密时的运算强度，超过10以后加密耗时会显著增加

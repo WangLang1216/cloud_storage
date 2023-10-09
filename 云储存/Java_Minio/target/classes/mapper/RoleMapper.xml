@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hq.minio.mapper.RoleMapper">
+
+    <resultMap id="BaseResultMap" type="com.hq.minio.entity.Role">
+        <id column="r_id" jdbcType="BIGINT" property="rId"></id>
+        <result column="r_name" jdbcType="CHAR" property="rName"></result>
+        <result column="r_desc" jdbcType="VARCHAR" property="rDesc"></result>
+    </resultMap>
+
+    <!--查询角色信息-->
+    <select id="queryRoleList" resultType="com.hq.minio.entity.Role" resultMap="BaseResultMap">
+        SELECT r_id, r_name, r_desc
+        FROM `role`
+    </select>
+
+</mapper>

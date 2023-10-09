@@ -1,0 +1,88 @@
+2023-09-08 13:55:37 INFO  main com.hq.minio.MinioApplication Starting MinioApplication on WangLang with PID 2700 (D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio\target\classes started by WangLang in D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio)
+2023-09-08 13:55:37 INFO  main com.hq.minio.MinioApplication No active profile set, falling back to default profiles: default
+2023-09-08 13:55:38 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-09-08 13:55:38 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-08 13:55:38 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2023-09-08 13:55:38 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2023-09-08 13:55:38 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-08 13:55:38 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-09-08 13:55:38 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-09-08 13:55:38 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-09-08 13:55:38 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1443 ms
+2023-09-08 13:55:38 INFO  main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2023-09-08 13:55:39 INFO  main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2023-09-08 13:55:40 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-08 13:55:40 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2023-09-08 13:55:40 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-08 13:55:41 INFO  main com.hq.minio.MinioApplication Started MinioApplication in 4.008 seconds (JVM running for 5.247)
+2023-09-08 13:56:21 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-08 13:56:21 INFO  SpringContextShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closing ...
+2023-09-08 13:56:21 INFO  SpringContextShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-09-08 13:56:34 INFO  main com.hq.minio.MinioApplication Starting MinioApplication on WangLang with PID 14684 (D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio\target\classes started by WangLang in D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio)
+2023-09-08 13:56:34 INFO  main com.hq.minio.MinioApplication No active profile set, falling back to default profiles: default
+2023-09-08 13:56:35 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-09-08 13:56:35 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-08 13:56:35 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 60ms. Found 0 Redis repository interfaces.
+2023-09-08 13:56:36 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2023-09-08 13:56:36 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-08 13:56:36 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-09-08 13:56:36 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-09-08 13:56:37 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-09-08 13:56:37 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2855 ms
+2023-09-08 13:56:37 INFO  main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2023-09-08 13:56:37 INFO  main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2023-09-08 13:56:40 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-08 13:56:40 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2023-09-08 13:56:40 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-08 13:56:40 INFO  main com.hq.minio.MinioApplication Started MinioApplication in 8.158 seconds (JVM running for 11.23)
+2023-09-08 14:29:02 INFO  main com.hq.minio.MinioApplication Starting MinioApplication on WangLang with PID 1168 (D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio\target\classes started by WangLang in D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio)
+2023-09-08 14:29:02 INFO  main com.hq.minio.MinioApplication No active profile set, falling back to default profiles: default
+2023-09-08 14:29:03 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-09-08 14:29:03 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-08 14:29:03 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2023-09-08 14:29:04 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2023-09-08 14:29:04 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-08 14:29:04 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-09-08 14:29:04 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-09-08 14:29:04 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-09-08 14:29:04 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1479 ms
+2023-09-08 14:29:04 INFO  main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2023-09-08 14:29:04 INFO  main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2023-09-08 14:29:06 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-08 14:29:07 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2023-09-08 14:29:07 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-08 14:29:07 INFO  main com.hq.minio.MinioApplication Started MinioApplication in 5.043 seconds (JVM running for 6.796)
+2023-09-08 14:32:29 INFO  main com.hq.minio.MinioApplication Starting MinioApplication on WangLang with PID 1820 (D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio\target\classes started by WangLang in D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio)
+2023-09-08 14:32:29 INFO  main com.hq.minio.MinioApplication No active profile set, falling back to default profiles: default
+2023-09-08 14:32:30 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-09-08 14:32:30 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-08 14:32:30 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+2023-09-08 14:32:31 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2023-09-08 14:32:31 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-08 14:32:31 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-09-08 14:32:31 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-09-08 14:32:31 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-09-08 14:32:31 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1631 ms
+2023-09-08 14:32:31 INFO  main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2023-09-08 14:32:31 INFO  main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2023-09-08 14:32:33 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-08 14:32:34 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2023-09-08 14:32:34 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-08 14:32:34 INFO  main com.hq.minio.MinioApplication Started MinioApplication in 4.587 seconds (JVM running for 7.303)
+2023-09-08 15:59:50 INFO  main com.hq.minio.MinioApplication Starting MinioApplication on WangLang with PID 9620 (D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio\target\classes started by WangLang in D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio)
+2023-09-08 15:59:50 INFO  main com.hq.minio.MinioApplication No active profile set, falling back to default profiles: default
+2023-09-08 15:59:52 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-09-08 15:59:52 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-08 15:59:52 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 45ms. Found 0 Redis repository interfaces.
+2023-09-08 15:59:53 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2023-09-08 15:59:53 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-08 15:59:53 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-09-08 15:59:53 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-09-08 15:59:53 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-09-08 15:59:53 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2496 ms
+2023-09-08 15:59:53 INFO  main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2023-09-08 15:59:53 INFO  main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2023-09-08 15:59:55 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-08 15:59:56 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2023-09-08 15:59:56 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-08 15:59:56 INFO  main com.hq.minio.MinioApplication Started MinioApplication in 5.909 seconds (JVM running for 7.62)

@@ -1,0 +1,181 @@
+2023-09-07 10:22:20 INFO  main com.damon.App Starting App on WangLang with PID 11316 (D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio\target\classes started by WangLang in D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio)
+2023-09-07 10:22:20 INFO  main com.damon.App No active profile set, falling back to default profiles: default
+2023-09-07 10:22:21 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-09-07 10:22:21 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-07 10:22:21 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2023-09-07 10:22:21 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2023-09-07 10:22:21 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-07 10:22:21 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-09-07 10:22:21 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-09-07 10:22:21 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-09-07 10:22:21 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1101 ms
+2023-09-07 10:22:22 INFO  main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2023-09-07 10:22:22 INFO  main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2023-09-07 10:22:23 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-07 10:22:23 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2023-09-07 10:22:23 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-07 10:22:23 INFO  main com.damon.App Started App in 3.527 seconds (JVM running for 4.509)
+2023-09-07 10:22:31 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-07 10:22:31 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-09-07 10:22:31 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 5 ms
+2023-09-07 10:30:57 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-07 10:30:57 INFO  SpringContextShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closing ...
+2023-09-07 10:30:57 INFO  SpringContextShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-09-07 10:31:02 INFO  main com.damon.App Starting App on WangLang with PID 9288 (D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio\target\classes started by WangLang in D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio)
+2023-09-07 10:31:02 INFO  main com.damon.App No active profile set, falling back to default profiles: default
+2023-09-07 10:31:03 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-09-07 10:31:03 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-07 10:31:03 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2023-09-07 10:31:04 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2023-09-07 10:31:04 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-07 10:31:04 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-09-07 10:31:04 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-09-07 10:31:04 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-09-07 10:31:04 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1193 ms
+2023-09-07 10:31:04 INFO  main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2023-09-07 10:31:04 INFO  main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2023-09-07 10:31:06 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-07 10:31:06 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2023-09-07 10:31:06 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-07 10:31:06 INFO  main com.damon.App Started App in 3.703 seconds (JVM running for 4.639)
+2023-09-07 10:31:50 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-07 10:31:50 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-09-07 10:31:50 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 5 ms
+2023-09-07 10:36:28 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-07 10:36:28 INFO  SpringContextShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closing ...
+2023-09-07 10:36:28 INFO  SpringContextShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-09-07 10:36:35 INFO  main com.damon.App Starting App on WangLang with PID 9928 (D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio\target\classes started by WangLang in D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio)
+2023-09-07 10:36:35 INFO  main com.damon.App No active profile set, falling back to default profiles: default
+2023-09-07 10:36:36 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-09-07 10:36:36 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-07 10:36:36 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2023-09-07 10:36:36 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2023-09-07 10:36:36 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-07 10:36:36 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-09-07 10:36:36 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-09-07 10:36:36 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-09-07 10:36:36 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1170 ms
+2023-09-07 10:36:37 INFO  main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2023-09-07 10:36:37 INFO  main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2023-09-07 10:36:38 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-07 10:36:38 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2023-09-07 10:36:38 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-07 10:36:38 INFO  main com.damon.App Started App in 3.376 seconds (JVM running for 4.287)
+2023-09-07 10:36:48 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-07 10:36:48 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-09-07 10:36:48 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 4 ms
+2023-09-07 10:37:21 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-07 10:37:21 INFO  SpringContextShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closing ...
+2023-09-07 10:37:21 INFO  SpringContextShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-09-07 10:37:27 INFO  main com.damon.App Starting App on WangLang with PID 15744 (D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio\target\classes started by WangLang in D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio)
+2023-09-07 10:37:27 INFO  main com.damon.App No active profile set, falling back to default profiles: default
+2023-09-07 10:37:27 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-09-07 10:37:27 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-07 10:37:28 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2023-09-07 10:37:28 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2023-09-07 10:37:28 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-07 10:37:28 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-09-07 10:37:28 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-09-07 10:37:28 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-09-07 10:37:28 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1105 ms
+2023-09-07 10:37:28 INFO  main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2023-09-07 10:37:28 INFO  main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2023-09-07 10:37:30 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-07 10:37:30 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2023-09-07 10:37:30 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-07 10:37:30 INFO  main com.damon.App Started App in 3.49 seconds (JVM running for 4.643)
+2023-09-07 10:40:12 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-07 10:40:12 INFO  SpringContextShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closing ...
+2023-09-07 10:40:12 INFO  SpringContextShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-09-07 10:40:17 INFO  main com.damon.App Starting App on WangLang with PID 15672 (D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio\target\classes started by WangLang in D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio)
+2023-09-07 10:40:17 INFO  main com.damon.App No active profile set, falling back to default profiles: default
+2023-09-07 10:40:18 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-09-07 10:40:18 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-07 10:40:18 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2023-09-07 10:40:18 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2023-09-07 10:40:18 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-07 10:40:18 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-09-07 10:40:18 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-09-07 10:40:19 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-09-07 10:40:19 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1106 ms
+2023-09-07 10:40:19 INFO  main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2023-09-07 10:40:19 INFO  main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2023-09-07 10:40:20 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-07 10:40:20 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2023-09-07 10:40:20 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-07 10:40:20 INFO  main com.damon.App Started App in 3.334 seconds (JVM running for 4.69)
+2023-09-07 10:40:28 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-07 10:40:28 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-09-07 10:40:28 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 4 ms
+2023-09-07 10:40:58 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-07 10:40:58 INFO  SpringContextShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closing ...
+2023-09-07 10:40:58 INFO  SpringContextShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-09-07 10:41:03 INFO  main com.damon.App Starting App on WangLang with PID 16040 (D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio\target\classes started by WangLang in D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio)
+2023-09-07 10:41:03 INFO  main com.damon.App No active profile set, falling back to default profiles: default
+2023-09-07 10:41:04 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-09-07 10:41:04 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-07 10:41:04 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2023-09-07 10:41:04 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2023-09-07 10:41:04 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-07 10:41:04 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-09-07 10:41:04 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-09-07 10:41:05 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-09-07 10:41:05 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1236 ms
+2023-09-07 10:41:05 INFO  main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2023-09-07 10:41:05 INFO  main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2023-09-07 10:41:06 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-07 10:41:07 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2023-09-07 10:41:07 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-07 10:41:07 INFO  main com.damon.App Started App in 3.795 seconds (JVM running for 5.946)
+2023-09-07 10:41:14 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-07 10:41:14 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-09-07 10:41:14 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 4 ms
+2023-09-07 10:42:43 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-07 10:42:43 INFO  SpringContextShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closing ...
+2023-09-07 10:42:43 INFO  SpringContextShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-09-07 10:42:52 INFO  main com.damon.App Starting App on WangLang with PID 14340 (D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio\target\classes started by WangLang in D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio)
+2023-09-07 10:42:52 INFO  main com.damon.App No active profile set, falling back to default profiles: default
+2023-09-07 10:42:53 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-09-07 10:42:53 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-07 10:42:53 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2023-09-07 10:42:53 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2023-09-07 10:42:53 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-07 10:42:53 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-09-07 10:42:53 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-09-07 10:42:53 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-09-07 10:42:53 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1279 ms
+2023-09-07 10:42:53 INFO  main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2023-09-07 10:42:53 INFO  main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2023-09-07 10:42:55 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-07 10:42:55 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2023-09-07 10:42:55 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-07 10:42:55 INFO  main com.damon.App Started App in 3.554 seconds (JVM running for 4.598)
+2023-09-07 10:43:06 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-07 10:43:06 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-09-07 10:43:06 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 4 ms
+2023-09-07 10:45:37 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-07 10:45:37 INFO  SpringContextShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closing ...
+2023-09-07 10:45:37 INFO  SpringContextShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+2023-09-07 11:00:47 INFO  main com.damon.App Starting App on WangLang with PID 16932 (D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio\target\classes started by WangLang in D:\Hello_World\JAVA\Project\pract_file_cloud\04 Src\0401 Code\Java_Minio)
+2023-09-07 11:00:47 INFO  main com.damon.App No active profile set, falling back to default profiles: default
+2023-09-07 11:00:48 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-09-07 11:00:48 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-07 11:00:48 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 21ms. Found 0 Redis repository interfaces.
+2023-09-07 11:00:49 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2023-09-07 11:00:49 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-07 11:00:49 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2023-09-07 11:00:49 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-09-07 11:00:49 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2023-09-07 11:00:49 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1819 ms
+2023-09-07 11:00:49 INFO  main com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure Init DruidDataSource
+2023-09-07 11:00:49 INFO  main com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+2023-09-07 11:00:51 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-07 11:00:51 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2023-09-07 11:00:51 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-07 11:00:51 INFO  main com.damon.App Started App in 4.713 seconds (JVM running for 5.583)
+2023-09-07 11:01:06 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-07 11:01:06 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2023-09-07 11:01:06 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 5 ms
+2023-09-07 11:01:47 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-07 11:01:47 INFO  SpringContextShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closing ...
+2023-09-07 11:01:47 INFO  SpringContextShutdownHook com.alibaba.druid.pool.DruidDataSource {dataSource-1} closed

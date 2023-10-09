@@ -1,0 +1,10 @@
+2023-09-11 14:53:04 ERROR http-nio-8080-exec-10 com.hq.minio.advice.GlobalExceptionHandler2 RuntimeException:400
+2023-09-11 14:59:05 ERROR http-nio-8080-exec-1 com.hq.minio.advice.GlobalExceptionHandler2 RuntimeException:400
+2023-09-11 15:01:09 ERROR http-nio-8080-exec-1 com.hq.minio.advice.GlobalExceptionHandler2 RuntimeException:400
+2023-09-11 15:03:06 ERROR http-nio-8080-exec-1 com.hq.minio.exception.GlobalExceptionHandler 发生业务异常：数据格式不匹配
+2023-09-11 15:04:58 ERROR http-nio-8080-exec-1 com.hq.minio.advice.GlobalExceptionHandler2 RuntimeException:400
+2023-09-11 15:05:22 ERROR http-nio-8080-exec-3 com.hq.minio.advice.GlobalExceptionHandler2 RuntimeException:400
+2023-09-11 15:05:27 ERROR http-nio-8080-exec-5 com.hq.minio.advice.GlobalExceptionHandler2 RuntimeException:400
+2023-09-11 15:05:37 ERROR http-nio-8080-exec-9 com.hq.minio.advice.GlobalExceptionHandler2 RuntimeException:400
+2023-09-11 15:11:01 ERROR http-nio-8080-exec-1 com.hq.minio.exception.GlobalExceptionHandler 发生业务异常：数据格式不匹配
+2023-09-11 15:14:39 ERROR http-nio-8080-exec-1 com.hq.minio.exception.GlobalExceptionHandler 发生业务异常：数据格式不匹配

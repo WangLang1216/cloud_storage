@@ -1,0 +1,25 @@
+{
+  "groups": [
+    {
+      "name": "encoder.crypt",
+      "type": "com.hq.minio.config.PasswordConfig",
+      "sourceType": "com.hq.minio.config.PasswordConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "encoder.crypt.secret",
+      "type": "java.lang.String",
+      "description": "干扰因子",
+      "sourceType": "com.hq.minio.config.PasswordConfig"
+    },
+    {
+      "name": "encoder.crypt.strength",
+      "type": "java.lang.Integer",
+      "description": "加密强度",
+      "sourceType": "com.hq.minio.config.PasswordConfig",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
